@@ -1,0 +1,101 @@
+.blog-section {
+  background-color: rgb(245, 247, 252);
+}
+
+.icon-mic {
+  background-color: white !important;
+}
+
+.card-personal {
+}
+
+.title-card:hover {
+  cursor: pointer;
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.card-hover:hover {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
+
+span,
+p {
+  color: rgb(133, 133, 133);
+}
+
+/* .owerlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  background-color: #164145;
+  opacity: 0;
+} 
+
+.owerlay:hover {
+  opacity: 0.6;
+}
+
+.bi-link-45deg {
+  position: absolute;
+  z-index: 50;
+  font-size: 30px;
+  margin: auto;
+  top: 50% !important;
+  right: 50% !important;
+  bottom: 50% !important;
+  left: 50% !important;
+  opacity: 0;
+}
+.bi-link-45deg:h {
+  opacity: 1;
+} */
+
+.detalse-overlay {
+  width: 100%;
+  max-width: 400px;
+}
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.owerlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #164145;
+}
+
+.detalse-overlay:hover .owerlay {
+  opacity: 0.6;
+}
+
+.bi-link-45deg {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* .bi-link-45deg:hover .bi-link-45deg {
+  opacity: 1;
+} */

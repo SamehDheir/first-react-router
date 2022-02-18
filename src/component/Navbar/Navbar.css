@@ -1,0 +1,32 @@
+.nav-nav {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  position: sticky !important;
+  font-family: "Outfit", sans-serif;
+  background-color: white !important;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.svg-brand {
+  color: #0d6efd;
+  font-size: large !important;
+}
+
+.nav-li:hover {
+  color: #0d6efd !important;
+  cursor: pointer;
+}
+
+.nav-link,
+.btn-login {
+  color: #6e706e;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding-right: 20px;
+}

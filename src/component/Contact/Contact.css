@@ -1,0 +1,38 @@
+input,
+textarea {
+  background-color: rgb(246, 247, 248) !important;
+}
+
+.btn-form {
+  font-weight: 500;
+}
+
+.link-company {
+  text-decoration: none !important;
+  color: rgb(124, 135, 152) !important;
+}
+.link-company:hover {
+  text-decoration: underline !important;
+}
+.details-contact,
+label {
+  color: rgb(124, 135, 152);
+  font-size: 17px;
+}
+
+iframe {
+  width: 540px;
+  height: 270px;
+}
+
+@media (max-width: 576px) {
+  iframe {
+    width: 100%;
+  }
+}
+
+.h2,
+.h3,
+.h5 {
+  color: rgb(29, 30, 85) !important;
+}

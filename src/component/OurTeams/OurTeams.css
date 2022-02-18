@@ -1,0 +1,36 @@
+.icon-social {
+  font-size: 16px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.twitter-team {
+  background-color: rgb(64, 153, 255);
+}
+.instagram-team {
+  background-color: rgb(201, 34, 40);
+}
+
+.mic-team {
+  background-color: rgb(59, 89, 152);
+}
+.envelope-open-team {
+  background-color: rgb(234, 76, 137);
+}
+
+.img-works:hover {
+  transform: scale(0.99);
+  -webkit-transform: scale(0.99);
+  -moz-transform: scale(0.99);
+  -ms-transform: scale(0.99);
+  -o-transform: scale(0.99);
+}

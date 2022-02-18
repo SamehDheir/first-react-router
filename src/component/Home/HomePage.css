@@ -1,0 +1,58 @@
+.home-section {
+  overflow: hidden;
+}
+
+.p-home {
+  color: #c9c2c2;
+  font-size: 23px !important;
+}
+.div-details {
+  text-align: center;
+  top: 40%;
+  color: white;
+  z-index: 30;
+}
+
+.div-details h1 {
+  font-size: 50px;
+}
+
+.img-home {
+  background-size: cover;
+  height: 640px;
+}
+
+.div-overlay {
+  width: 100%;
+  background: #151515;
+  opacity: 0.55;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+}
+
+.div-details p {
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.form-home {
+  padding: 0 30% !important;
+}
+.form-home input {
+  border: none;
+}
+
+.icon-arrow {
+  position: absolute;
+  bottom: 0;
+}
+
+#button-addon2 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
